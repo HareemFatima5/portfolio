@@ -31,8 +31,9 @@ portfolio/
 - Source code (HTML + CSS + Images).
 - GitHub repository link.
 - Live site link.
-- Submission zip file named as: HareemFatima5–RegNo–Section.zip
 
 **Author:** Hareem Fatima
+
 **Registration No.:** 466141
+
 **Section:** BSDS-1A
