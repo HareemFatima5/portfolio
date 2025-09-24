@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('../images/back.jpg');  
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Main content box */
+.main-section {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    width: 70%;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #222;
+    margin-top: 0;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #555;
+}
+
+h3 {
+    color: #444;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Float to position content side by side */
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* Clear to fix layout issues caused by floated elements */
+.clearfix {
+    clear: both;
+}
+
+/* Navigation buttons using float for horizontal alignment */
+.nav-buttons {
+    margin-top: 30px;
+}
+
+.nav-button {
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 0 8px 10px 0;
+    display: block;
+}
+
+.nav-button:hover {
+    background-color: #ffcccc;
+    transform: scale(1.05);
+}
+
+/* Skills page styling */
+.skill-item {
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(249, 249, 249, 0.8);
+    border-radius: 8px;
+}
+
+.skill-name {
+    width: 200px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.skill-bar {
+    width: 300px;
+    height: 25px;
+    background: #ecf0f1;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+}
+
+.skill-level {
+    height: 100%;
+    background: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    width: 90%; 
+}
+
+/* Hobbies page styling */
+.hobby-item {
+    margin: 25px 0;
+    padding: 20px;
+    background: rgba(249, 249, 249, 0.8);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.hobby-img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 2px solid #bdc3c7;
+}
+
+.hobby-content {
+    width: calc(100% - 170px);
+}
+
+/* Contact page styling */
+.contact-info {
+    width: 45%;
+    padding: 20px;
+    text-align: left;
+    background: rgba(249, 249, 249, 0.8);
+    border-radius: 10px;
+    margin-right: 5%;
+}
+
+.contact-form {
+    width: 45%;
+    padding: 20px;
+    background: rgba(249, 249, 249, 0.8);
+    border-radius: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.submit-btn {
+    padding: 12px 30px;
+    background: #f9f9f9;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.submit-btn:hover {
+    background-color: #ffcccc;
+    transform: scale(1.05);
+}
+
+.gallery-container {
+    margin: 20px 0;
+}
+
+.gallery-item {
+    width: 30%;
+    margin: 1.5%;
+    padding: 15px;
+    background: rgba(249, 249, 249, 0.8);
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    border: 2px solid #bdc3c7;
+}
+
+.gallery-item p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: #555;
+}
